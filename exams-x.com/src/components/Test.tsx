@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import Board from "./Board";
 
 export default function Test(props: CalculationWithFn) {
   const [Answer, setAnswer] = useState("");
@@ -104,7 +105,6 @@ export default function Test(props: CalculationWithFn) {
           </div>
         </form>
       </div>
-      <div className="w-full h-[70vh] bg-green-900"></div>
     </section>
   );
 }

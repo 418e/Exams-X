@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { calculate } from "@/data";
 import Test from "@/components/Test";
+import BoardF from "@/components/Board";
 
 export default function Start() {
   const [Year, setYear] = useState(2023);
@@ -9,6 +10,7 @@ export default function Start() {
   const [Points, setPoints] = useState(0);
   const [Quantity, setQuantity] = useState(0);
   const [Random, setRandom] = useState(0);
+  const [Started, setStarter] = useState(false);
   const [Board, setBoard] = useState(0);
   const [Timer, setTimer] = useState(0);
   const [TestNumber, setTestNumber] = useState(1);
@@ -23,6 +25,7 @@ export default function Start() {
         onSubmit={(e) => {
           e.preventDefault();
           setData(calculate(Year, Version, Points, Quantity, Random));
+          setStarter(true);
         }}
       >
         <select
@@ -84,7 +87,6 @@ export default function Start() {
             setBoard(e.target.value);
           }}
           className={selectClassName}
-          disabled
         >
           <option value={0}>დაფა: კი</option>
           <option value={1}>დაფა: არა</option>
@@ -105,18 +107,21 @@ export default function Start() {
           დაწყება
         </button>
       </form>
-      <Test
-        year={Data[TestNumber]?.year}
-        version={Data[TestNumber]?.version}
-        type={Data[TestNumber]?.type}
-        image={Data[TestNumber]?.image}
-        points={Data[TestNumber]?.points}
-        answer={Data[TestNumber]?.answer}
-        number={Data[TestNumber]?.number}
-        answerIsImage={Data[TestNumber]?.answerIsImage}
-        addPage={() => setTestNumber(TestNumber + 1)}
-        removePage={() => setTestNumber(TestNumber - 1)}
-      />
+      {Started && (
+        <Test
+          year={Data[TestNumber]?.year}
+          version={Data[TestNumber]?.version}
+          type={Data[TestNumber]?.type}
+          image={Data[TestNumber]?.image}
+          points={Data[TestNumber]?.points}
+          answer={Data[TestNumber]?.answer}
+          number={Data[TestNumber]?.number}
+          answerIsImage={Data[TestNumber]?.answerIsImage}
+          addPage={() => setTestNumber(TestNumber + 1)}
+          removePage={() => setTestNumber(TestNumber - 1)}
+        />
+      )}
+      {Board == 0 && <BoardF />}
     </>
   );
 }
