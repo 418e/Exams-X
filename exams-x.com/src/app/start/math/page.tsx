@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { calculate } from "@/data";
+import { calculate } from "@/data/DMA";
 import Test from "@/components/Test";
 import BoardF from "@/components/Board";
 import PointsBoard from "@/components/Points";
@@ -143,9 +143,9 @@ export default function Start() {
               setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
             }
           />
+          {Board == 0 && <BoardF />}
         </>
       )}
-      {Board == 0 && <BoardF />}
     </>
   );
 }
