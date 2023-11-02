@@ -18,7 +18,7 @@ export default function Test(props: CalculationWithFn) {
         <div className="w-full flex justify-center">
           <img
             src={props.image}
-            className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none"
+            className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain"
           />
         </div>
         <form
