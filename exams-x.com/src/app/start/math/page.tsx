@@ -11,7 +11,8 @@ export default function Start() {
   const [Random, setRandom] = useState(0);
   const [Board, setBoard] = useState(0);
   const [Timer, setTimer] = useState(0);
-  const [Data, setData]: [any, any] = useState([]);
+  const [TestNumber, setTestNumber] = useState(1);
+  const [Data, setData]: [Calculation[], any] = useState([]);
 
   const selectClassName =
     "text-lg w-full md:w-96 h-24 px-6 focus:outline-none border-2 border-black bg-white cursor-pointer dark:border-white dark:bg-black";
@@ -104,18 +105,18 @@ export default function Start() {
           დაწყება
         </button>
       </form>
-      {Data?.map((e: Calculation) => {
-        return <Test
-          year={e.year}
-          version={e.version}
-          type={e.type}
-          image={e.image}
-          points={e.points}
-          answer={e.answer}
-          number={e.number}
-          answerIsImage={e.answerIsImage}
-        />;
-      })}
+      <Test
+        year={Data[TestNumber]?.year}
+        version={Data[TestNumber]?.version}
+        type={Data[TestNumber]?.type}
+        image={Data[TestNumber]?.image}
+        points={Data[TestNumber]?.points}
+        answer={Data[TestNumber]?.answer}
+        number={Data[TestNumber]?.number}
+        answerIsImage={Data[TestNumber]?.answerIsImage}
+        addPage={() => setTestNumber(TestNumber + 1)}
+        removePage={() => setTestNumber(TestNumber - 1)}
+      />
     </>
   );
 }

@@ -9,6 +9,19 @@ interface Calculation {
   answer: string | string[];
 }
 
+interface CalculationWithFn {
+  year: number;
+  version: number;
+  number: number;
+  points: number;
+  type: "open" | "closed";
+  image: string;
+  answerIsImage: boolean;
+  answer: string | string[];
+  addPage: any;
+  removePage: any;
+}
+
 interface Scheme {
   year: number;
   version: number;

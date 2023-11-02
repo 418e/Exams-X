@@ -263,9 +263,9 @@ export function calculate(
         points: e.points,
         type: e.type,
         image: getImage(e.year, e.version, e.number, "math"),
-        answerIsImage: e.type === "closed",
+        answerIsImage: e.type == "open",
         answer:
-          e.type === "closed" //@ts-ignore
+          e.type == "open" //@ts-ignore
             ? getAnswers(e.year, e.version, e.answer, "math")
             : e.answer,
       });
@@ -288,9 +288,9 @@ export function calculate(
         points: e.points,
         type: e.type,
         image: getImage(e.year, e.version, e.number, "math"),
-        answerIsImage: e.type === "closed",
+        answerIsImage: e.type == "open",
         answer:
-          e.type === "closed" //@ts-ignore
+          e.type == "open" //@ts-ignore
             ? getAnswers(e.year, e.version, e.answer, "math")
             : e.answer,
       });
@@ -314,9 +314,9 @@ export function calculate(
         points: e.points,
         type: e.type,
         image: getImage(e.year, e.version, e.number, "math"),
-        answerIsImage: e.type === "closed",
+        answerIsImage: e.type == "open",
         answer:
-          e.type === "closed" //@ts-ignore
+          e.type == "open" //@ts-ignore
             ? getAnswers(e.year, e.version, e.answer, "math")
             : e.answer,
       });
@@ -334,9 +334,9 @@ export function calculate(
         points: e.points,
         type: e.type,
         image: getImage(e.year, e.version, e.number, "math"),
-        answerIsImage: e.type === "closed",
+        answerIsImage: e.type == "open",
         answer:
-          e.type === "closed" //@ts-ignore
+          e.type == "open" //@ts-ignore
             ? getAnswers(e.year, e.version, e.answer, "math")
             : e.answer,
       });
@@ -354,9 +354,9 @@ export function calculate(
         points: e.points,
         type: e.type,
         image: getImage(e.year, e.version, e.number, "math"),
-        answerIsImage: e.type === "closed",
+        answerIsImage: e.type == "open",
         answer:
-          e.type === "open" //@ts-ignore
+          e.type == "open" //@ts-ignore
             ? getAnswers(e.year, e.version, e.answer, "math")
             : e.answer,
       });
