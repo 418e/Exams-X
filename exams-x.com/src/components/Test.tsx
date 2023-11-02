@@ -8,7 +8,7 @@ export default function Test(props: CalculationWithFn) {
   return (
     <section
       key={props.year + props.version + props.number}
-      className="flex flex-col border-y-4 border-black"
+      className="flex flex-col border-y-4 border-black dark:border-white pt-12"
     >
       <div className="w-full h-screen flex flex-col">
         <div className="m-4 w-full text-center">
@@ -87,16 +87,19 @@ export default function Test(props: CalculationWithFn) {
               onClick={() => {
                 const answ = props.answer[0][props.answer[0].length - 1];
 
-                if (Success) {
+                if (props.type == "closed" && answ == Answer) {
+                  // correct closed answer
+                  setSuccess(true);
+                  props.addPoints();
                   setAnswer("");
                   setSuccess(false);
                   props.addPage();
-                }
-
-                if (props.type == "closed" && answ == Answer) {
-                  setSuccess(true);
                 } else if (props.type == "closed" && answ !== Answer) {
+                  // incorrect closed answer
                   setSuccess(false);
+                  props.addLostPoints();
+                  setAnswer("");
+                  props.addPage();
                 }
               }}
             >

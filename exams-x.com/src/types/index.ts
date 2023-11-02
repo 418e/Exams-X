@@ -20,6 +20,8 @@ interface CalculationWithFn {
   answer: string | string[];
   addPage: any;
   removePage: any;
+  addPoints: any;
+  addLostPoints: any;
 }
 
 interface Scheme {
