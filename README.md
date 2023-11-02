@@ -1,9 +1,13 @@
 # Exams-X
 
-Practice software for National Exams of Georgia.
+Practice software for National Exams of Georgia with lots of educational resources to help students ice the test.
 
 ## Features
 
 ### Current
 
-### Soon# Exams-X
+Soon...
+
+### Soon
+
+Soon...
