@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="icon" href="/ex-x-2.png" />
         <meta
           name="description"
-          content="Exams-X: მოემზადე ერთიანი ეროვნული გამოცდებისთვის შენზე მორგებული, პერსონალიზირებული სავარჯიშო და საგანმანთლებლო პროგრამით -  EX-X"
+          content="Exams-X პროექტი არის მოსწავლეზე ორიენტირებული და ემსახურება მათ მომზადებას ერთიანი ეროვნული გამოცდებისთვის -  EX-X"
         />
         <title>Exams-X</title>
       </head>

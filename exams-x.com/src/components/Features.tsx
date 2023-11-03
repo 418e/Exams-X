@@ -1,10 +1,10 @@
 import {
-  MdSchool,
   MdFileCopy,
   MdBook,
   MdPerson2,
   MdSource,
   MdLockPerson,
+  MdMoneyOff,
 } from "react-icons/md";
 import Link from "next/link";
 
@@ -14,13 +14,11 @@ export default function Features() {
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">
-            ამ ტექსტსაც მერე მოვიფიქრებ
+            მიზნები
           </h2>
 
           <p className="mt-4 dark:text-white text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            ჩვენი მიზანია შევქმნათ აპლიკაცია რომელიც დაეხმარება მოსწავლეებს მოემზადონ ეროვნული გამოცდებისთვის, გაიგონ სუსტი და ძლიერი მხარეები და გადალახონ სირთულეები.
           </p>
         </div>
 
@@ -32,13 +30,12 @@ export default function Features() {
             <MdFileCopy size={32} />
 
             <h2 className="mt-4 text-xl font-bold dark:text-white text-black">
-              ივარჯიშე ტესტებში
+              სავარჯიშოები
             </h2>
 
             <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              თქვენზე მორგებული და მარტივად გასამართი სავარჯიშოები წარსულში
+              ჩატარებული ეროვნული ტესტირებებიდან.
             </p>
           </Link>
 
@@ -49,13 +46,12 @@ export default function Features() {
             <MdBook size={32} />
 
             <h2 className="mt-4 text-xl font-bold dark:text-white text-black">
-              შეაფასე ცოდნა
+              მორგებული
             </h2>
 
             <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              გაიგე შენი სუსტი და ძლიერი მხარეები და გამოასწორე შეცდომები,
+              პერსონალიზირებული ალგორითმის გამოყენებით.
             </p>
           </Link>
 
@@ -66,16 +62,29 @@ export default function Features() {
             <MdPerson2 size={32} />
 
             <h2 className="mt-4 text-xl font-bold dark:text-white text-black">
-              პერსონალიზირებული ტესტები
+              პერსონალიზირებული
             </h2>
 
             <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              მიიღე პერსონალიზირებული სავარჯიშოები, შედეგები და რჩევები შენზე
+              მორგებული ალგორითმის საშუალებით.
             </p>
           </Link>
+          <Link
+            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black/10 hover:shadow-black/10 dark:hover:border-white/10 dark:hover:shadow-white/10"
+            href="/"
+          >
+            <MdMoneyOff size={32} />
 
+            <h2 className="mt-4 text-xl font-bold dark:text-white text-black">
+              უფასო
+            </h2>
+
+            <p className="mt-1 text-sm dark:text-white text-black">
+              ვებ-გვერდზე არ ხდება რეკლამების განთავსება ან ფასიანი პროდუქტების
+              შეთავაზება. სერვისები რომლებსაც ჩვენ გთავაზობთ არის სრულიად უფასო.
+            </p>
+          </Link>
           <Link
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black/10 hover:shadow-black/10 dark:hover:border-white/10 dark:hover:shadow-white/10"
             href="/"
@@ -87,9 +96,8 @@ export default function Features() {
             </h2>
 
             <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              ვებ-გვერდის კოდი არის ღია. რაც იმას იმას ნიშნავს, რომ ყველას
+              შეუძლია ნახოს კოდი და წვლილი შეიტანოს მის განვითარებაში.
             </p>
           </Link>
 
@@ -104,26 +112,9 @@ export default function Features() {
             </h2>
 
             <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
-            </p>
-          </Link>
-
-          <Link
-            className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black/10 hover:shadow-black/10 dark:hover:border-white/10 dark:hover:shadow-white/10"
-            href="/"
-          >
-            <MdSchool size={32} />
-
-            <h2 className="mt-4 text-xl font-bold dark:text-white text-black">
-              მოსაფიქრებელი მაქ
-            </h2>
-
-            <p className="mt-1 text-sm dark:text-white text-black">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
-              possimus adipisci distinctio alias voluptatum blanditiis
-              laudantium.
+              თქვენი პერსონალური ინფორმაცია დაცულია. ვებ-გვერდზე არ ხდება
+              რეკლამების განთავსება ან თქვენი ინფორმაციის მესამე მხარესთან
+              გაზიარება. იხილეთ "კონფიდენციალურობის პოლიტიკა".
             </p>
           </Link>
         </div>

@@ -10,8 +10,7 @@ export default function Banner() {
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            პროექტი არის მოსწავლეზე ორიენტირებული და ემსახურება მათ მომზადებას ერთიანი ეროვნული გამოცდებისთვის.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
