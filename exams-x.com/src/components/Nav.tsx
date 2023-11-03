@@ -15,7 +15,9 @@ export default function Nav() {
             src={`${Dark ? "/ex-x-2.png" : "/ex-x.png"}`}
             className="h-16 cursor-pointer"
           />
-          <span className="absolute top-8 left-0 ml-28 bg-black text-white p-1 rounded-3xl text-xs dark:bg-white dark:text-black">Beta</span>
+          <span className="absolute top-8 left-0 ml-28 bg-black text-white p-1 rounded-3xl text-xs dark:bg-white dark:text-black">
+            Beta
+          </span>
         </Link>
         <ul
           className={`md:flex space-x-8 ml-8 font-bold ${
@@ -25,13 +27,10 @@ export default function Nav() {
           }`}
         >
           <li className={`hover:underline`}>
-            <Link href="/start/math">მათემატიკა</Link>
+            <Link href="/choose">ტესტები</Link>
           </li>
           <li className={`hover:underline`}>
-            <Link href="/start/geo">ქართული</Link>
-          </li>
-          <li className={`hover:underline`}>
-            <Link href="/start/eng">ინგლისური</Link>
+            <Link href="/">რესურსები</Link>
           </li>
         </ul>
       </div>
@@ -46,7 +45,7 @@ export default function Nav() {
             } else if (localStorage.getItem("theme") == "light") {
               localStorage.theme = "dark";
               document.documentElement.classList.add("dark");
-              setDark(true)
+              setDark(true);
             } else {
               localStorage.removeItem("theme");
             }

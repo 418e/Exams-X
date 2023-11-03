@@ -130,7 +130,7 @@ export default function Features() {
 
         <div className="mt-12 text-center">
           <Link
-            href="/"
+            href="/choose"
             className="inline-block rounded bg-black dark:bg-white px-12 py-3 text-sm font-medium text-white dark:text-black transition hover:bg-black dark:hover:bg-white focus:outline-none"
           >
             დაიწყე ახლავე

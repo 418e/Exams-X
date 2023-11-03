@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className + " dark:text-white"}>
         <Nav />
-        <main className="dark:bg-black">{children}</main>
+        <main className="dark:bg-black min-h-screen">{children}</main>
       </body>
     </html>
   );

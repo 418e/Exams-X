@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Board from "./Board";
 
 export default function Test(props: CalculationWithFn) {
   const [Answer, setAnswer] = useState("");
@@ -77,6 +76,7 @@ export default function Test(props: CalculationWithFn) {
                   props.answer.map((e: string) => {
                     return (
                       <img
+                        key={e}
                         src={e}
                         className="h-[70vh] lg:h-[80vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
                       />
@@ -115,9 +115,13 @@ export default function Test(props: CalculationWithFn) {
                   props.addLostPoints();
                   setAnswer("");
                   props.addPage();
-                } else if (props.type == "open" && !Success) {
+                }
+
+                if (props.type == "open" && !Success) {
+                  // correct open answer
                   setSuccess(true);
                 } else if (props.type == "open" && Success) {
+                  // incorrect open answer
                   setSuccess(false);
                   props.addPage();
                 }

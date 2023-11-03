@@ -17,7 +17,7 @@ export default function Banner() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
               className="block w-full rounded border border-black dark:border-white bg-black dark:bg-white px-12 py-3 text-sm font-medium text-white dark:text-black hover:bg-transparent hover:text-black   dark:hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto transition-all"
-              href="/"
+              href="/choose"
             >
               დაიწყე ახლავე
             </Link>
