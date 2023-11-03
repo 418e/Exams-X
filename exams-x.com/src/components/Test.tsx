@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Test(props: CalculationWithFn) {
   const [Answer, setAnswer] = useState("");
-  const [OpenAnswer, setOpenAnswer] = useState("");
+  const [OpenAnswer, setOpenAnswer] = useState("1");
   const [Success, setSuccess] = useState(false);
   return (
     <section
@@ -84,13 +84,19 @@ export default function Test(props: CalculationWithFn) {
                   })}
               </div>
               <div className="w-full flex justify-center my-8">
-                <input
-                  type="text"
-                  className="border border-black dark:border-white dark:bg-black focus:outline-none p-1 rounded-md"
-                  onChange={(e) => {
-                    setOpenAnswer(e.target.value);
-                  }}
-                />
+                {Success && (
+                  <>
+                    <input
+                      type="number"
+                      className="border border-black dark:border-white dark:bg-black focus:outline-none p-1 rounded-md"
+                      placeholder="მიღებული ქულები"
+                      defaultValue={1}
+                      onChange={(e) => {
+                        setOpenAnswer(e.target.value);
+                      }}
+                    />
+                  </>
+                )}
               </div>
             </>
           )}
@@ -122,6 +128,8 @@ export default function Test(props: CalculationWithFn) {
                   setSuccess(true);
                 } else if (props.type == "open" && Success) {
                   // incorrect open answer
+                  props.addPoints(JSON.parse(OpenAnswer));
+                  props.addLostPoints(props.points - JSON.parse(OpenAnswer));
                   setSuccess(false);
                   props.addPage();
                 }

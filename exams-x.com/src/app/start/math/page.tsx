@@ -31,11 +31,11 @@ export default function Start() {
           setData(calculate(Year, Version, Points, Quantity, Random));
           setTestNumber(0);
           setStarter(true);
+          setUserPoints(0);
+          setUserLostPoints(0);
         }}
       >
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-4"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-4">
           <select
             onChange={(e: any) => {
               setYear(e.target.value);
@@ -72,7 +72,6 @@ export default function Start() {
               setQuantity(e.target.value);
             }}
             className={selectClassName}
-            disabled
           >
             <option value={0}>რაოდენობა: ყველა</option>
             <option value={1}>რაოდენობა: 1</option>
@@ -115,36 +114,47 @@ export default function Start() {
           დაწყება
         </button>
       </form>
-      {Started && (
-        <>
-          <PointsBoard
-            points={userPoints}
-            lost_points={userLostPoints}
-            total_points={0}
-            problem={TestNumber}
-            total_problems={Data.length}
-            timer={Timer == 1}
-          />
-          <Test
-            year={Data[TestNumber]?.year}
-            version={Data[TestNumber]?.version}
-            type={Data[TestNumber]?.type}
-            image={Data[TestNumber]?.image}
-            points={Data[TestNumber]?.points}
-            answer={Data[TestNumber]?.answer}
-            number={Data[TestNumber]?.number}
-            answerIsImage={Data[TestNumber]?.answerIsImage}
-            addPage={() => setTestNumber(TestNumber + 1)}
-            removePage={() => setTestNumber(TestNumber - 1)}
-            addPoints={() =>
-              setUserPoints(userPoints + Data[TestNumber]?.points)
-            }
-            addLostPoints={() =>
-              setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
-            }
-          />
-          {Board == 0 && <BoardF />}
-        </>
+      {Data.length - 1 >= TestNumber ? (
+        Started && (
+          <>
+            <PointsBoard
+              points={userPoints}
+              lost_points={userLostPoints}
+              total_points={0}
+              problem={TestNumber}
+              total_problems={Data.length}
+              timer={Timer == 1}
+            />
+            <Test
+              year={Data[TestNumber]?.year}
+              version={Data[TestNumber]?.version}
+              type={Data[TestNumber]?.type}
+              image={Data[TestNumber]?.image}
+              points={Data[TestNumber]?.points}
+              answer={Data[TestNumber]?.answer}
+              number={Data[TestNumber]?.number}
+              answerIsImage={Data[TestNumber]?.answerIsImage}
+              addPage={() => setTestNumber(TestNumber + 1)}
+              removePage={() => setTestNumber(TestNumber - 1)}
+              addPoints={() =>
+                setUserPoints(userPoints + Data[TestNumber]?.points)
+              }
+              addLostPoints={() =>
+                setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
+              }
+            />
+            {Board == 0 && <BoardF />}
+          </>
+        )
+      ) : (
+        <PointsBoard
+          points={userPoints}
+          lost_points={userLostPoints}
+          total_points={0}
+          problem={TestNumber}
+          total_problems={Data.length}
+          timer={Timer == 1}
+        />
       )}
     </>
   );

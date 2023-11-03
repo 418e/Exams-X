@@ -114,7 +114,7 @@ function ByVersionPoints(
 
   switch (lang) {
     case "math":
-      math[year].map((e: Scheme) => {
+      math[year]?.map((e: Scheme) => {
         e.version == version && e.points == points && data.push(e);
       });
       break;
@@ -176,7 +176,9 @@ function getAnswers(
   lang: lang
 ) {
   const data: string[] = [];
-  answer.map((answ: string) => data.push(`/${lang}_${year}_${version}_answers/${answ}`));
+  answer.map((answ: string) =>
+    data.push(`/${lang}_${year}_${version}_answers/${answ}`)
+  );
   return data;
 }
 
@@ -196,6 +198,16 @@ function ReturnScheme(e: Scheme) {
         ? getAnswers(e.year, e.version, e.answer, "math")
         : e.answer,
   };
+}
+
+// returns first n members
+
+function Quantify(arr: Calculation[], n: number): Calculation[] {
+  if (n == 0) {
+    return arr;
+  } else {
+    return arr.slice(0, n);
+  }
 }
 
 /* 
@@ -218,7 +230,7 @@ export function calculate(
     data.map((e: Scheme) => {
       calculated.push(ReturnScheme(e));
     });
-    return calculated;
+    return Quantify(calculated, quantity);
   } else if (version !== 0 && points == 0) {
     // Configratuin 2: version != all & points = all
     const data: Scheme[] = ByVersion(
@@ -231,7 +243,7 @@ export function calculate(
     data.map((e: Scheme) => {
       calculated.push(ReturnScheme(e));
     });
-    return calculated;
+    return Quantify(calculated, quantity);
   } else if (version !== 0 && points !== 0) {
     // Configuration 3: version != all & points != all
     console.log("configuration 3");
@@ -246,7 +258,7 @@ export function calculate(
     data.map((e: Scheme) => {
       calculated.push(ReturnScheme(e));
     });
-    return calculated;
+    return Quantify(calculated, quantity);
   } else if (version == 0 && points !== 0) {
     // Configuration 4: version = all & points != all
     const data: Scheme[] = ByPoints(year, points, random == 0 && true, "math");
@@ -254,7 +266,7 @@ export function calculate(
     data.map((e: Scheme) => {
       calculated.push(ReturnScheme(e));
     });
-    return calculated;
+    return Quantify(calculated, quantity);
   } else {
     // Escape Configuration 0 = Configuration 1
     const data: Scheme[] = ByYear(year, random == 0 && true, "math");
@@ -262,6 +274,6 @@ export function calculate(
     data.map((e: Scheme) => {
       calculated.push(ReturnScheme(e));
     });
-    return calculated;
+    return Quantify(calculated, quantity);
   }
 }
