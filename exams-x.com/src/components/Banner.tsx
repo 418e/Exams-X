@@ -6,7 +6,7 @@ export default function Banner() {
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 dark:from-gray-300 dark:via-gray-500 dark:to-gray-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
             EXAMS-X
-            <span className="sm:block sm:py-2"> სლოგანს მერე მოვიფიქრებ. </span>
+            <span className="sm:block sm:py-2"> მოემზადე გამოცდებისთვის </span>
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
