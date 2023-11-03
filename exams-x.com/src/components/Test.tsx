@@ -10,7 +10,7 @@ export default function Test(props: CalculationWithFn) {
       key={props.year + props.version + props.number}
       className="flex flex-col border-y-4 border-black dark:border-white pt-12"
     >
-      <div className="w-full h-screen flex flex-col">
+      <div className="w-full min-h-screen flex flex-col">
         <div className="m-4 w-full text-center">
           {props.year}, ვარიანტი {props.version} / N{props.number} (
           {props.points} ქულა)
@@ -18,7 +18,7 @@ export default function Test(props: CalculationWithFn) {
         <div className="w-full flex justify-center">
           <img
             src={props.image}
-            className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain"
+            className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
           />
         </div>
         <form
@@ -71,12 +71,27 @@ export default function Test(props: CalculationWithFn) {
             </div>
           ) : (
             <>
-              <input
-                type="text"
-                onChange={(e) => {
-                  setOpenAnswer(e.target.value);
-                }}
-              />
+              <div className="w-full flex items-center flex-col mt-2">
+                {props.answerIsImage &&
+                  Success && // @ts-ignore
+                  props.answer.map((e: string) => {
+                    return (
+                      <img
+                        src={e}
+                        className="h-[70vh] lg:h-[80vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
+                      />
+                    );
+                  })}
+              </div>
+              <div className="w-full flex justify-center my-8">
+                <input
+                  type="text"
+                  className="border border-black dark:border-white dark:bg-black focus:outline-none p-1 rounded-md"
+                  onChange={(e) => {
+                    setOpenAnswer(e.target.value);
+                  }}
+                />
+              </div>
             </>
           )}
           <div className="w-full flex justify-center my-8">
@@ -99,6 +114,11 @@ export default function Test(props: CalculationWithFn) {
                   setSuccess(false);
                   props.addLostPoints();
                   setAnswer("");
+                  props.addPage();
+                } else if (props.type == "open" && !Success) {
+                  setSuccess(true);
+                } else if (props.type == "open" && Success) {
+                  setSuccess(false);
                   props.addPage();
                 }
               }}

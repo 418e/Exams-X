@@ -175,8 +175,8 @@ function getAnswers(
   answer: string[],
   lang: lang
 ) {
-  const data: string[] = [`/${lang}_${year}_${version}/${answer}`];
-  // answer.map((answ: string) => data.push(`/${lang}_${year}_${version}/${answ}`));
+  const data: string[] = [];
+  answer.map((answ: string) => data.push(`/${lang}_${year}_${version}_answers/${answ}`));
   return data;
 }
 
