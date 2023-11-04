@@ -4,6 +4,7 @@ import { calculate } from "@/data/DMA";
 import Test from "@/components/Test";
 import BoardF from "@/components/Board";
 import PointsBoard from "@/components/Points";
+import Final from "@/components/Final";
 
 export default function Start() {
   const [Year, setYear] = useState(2023);
@@ -147,13 +148,10 @@ export default function Start() {
           </>
         )
       ) : (
-        <PointsBoard
-          points={userPoints}
-          lost_points={userLostPoints}
-          total_points={0}
-          problem={TestNumber}
-          total_problems={Data.length}
-          timer={Timer == 1}
+        <Final
+          Points={userPoints}
+          LostPoints={userLostPoints}
+          TotalProblems={Data.length}
         />
       )}
     </>
