@@ -20,9 +20,9 @@ export default function Nav() {
           </span>
         </Link>
         <ul
-          className={`md:flex space-x-8 ml-8 font-bold ${
+          className={`md:flex font-bold space-x-0 md:space-x-8 md:ml-8 ${
             Mobile
-              ? "flex absolute w-full mt-64 flex-col ml-0 justify-center items-center space-x-0 space-y-8 border-b-4 border-black pb-4"
+              ? "flex absolute w-full mt-64 flex-col justify-center items-center space-y-8 border-b-4 border-black pb-4 bg-white dark:bg-black"
               : "hidden"
           }`}
         >
