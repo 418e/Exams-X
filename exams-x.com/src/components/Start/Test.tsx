@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CorrectModal from "./Correct";
+import Btn from "../UI/Button";
 
 export default function Test(props: CalculationWithFn) {
   const [Answer, setAnswer] = useState("");
@@ -106,10 +107,7 @@ export default function Test(props: CalculationWithFn) {
             </>
           )}
           <div className="w-full flex justify-center my-8">
-            <button
-              className={`border-2 p-2 rounded-md ${
-                Success && "border-gren-900"
-              } border-black text-black dark:border-white hover:text-white dark:text-white hover:bg-black hover:dark:text-black hover:dark:bg-white transition-all`}
+            <Btn
               onClick={() => {
                 const answ = props.answer[0][props.answer[0].length - 1];
                 setCorrect(false);
@@ -144,7 +142,7 @@ export default function Test(props: CalculationWithFn) {
               }}
             >
               {Success ? "შემდეგი" : "შემოწმება"}
-            </button>
+            </Btn>
           </div>
         </form>
       </div>

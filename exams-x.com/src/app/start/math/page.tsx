@@ -1,10 +1,11 @@
 "use client";
 import { useState } from "react";
 import { calculate } from "@/data/DMA";
-import Test from "@/components/Test";
-import BoardF from "@/components/Board";
-import PointsBoard from "@/components/Points";
-import Final from "@/components/Final";
+import Test from "@/components/Start/Test";
+import BoardF from "@/components/Start/Board";
+import PointsBoard from "@/components/Start/Points";
+import Final from "@/components/Start/Final";
+import { Btn, Select } from "@/components/UI";
 
 export default function Start() {
   const [Year, setYear] = useState(2023);
@@ -17,16 +18,12 @@ export default function Start() {
   const [Timer, setTimer] = useState(0);
   const [TestNumber, setTestNumber] = useState(1);
   const [Data, setData]: [Calculation[], any] = useState([]);
-  //
   const [userPoints, setUserPoints] = useState(0);
   const [userLostPoints, setUserLostPoints] = useState(0);
-
-  const selectClassName =
-    "text-lg w-full md:w-96 h-24 px-6 focus:outline-none border-2 border-black bg-white cursor-pointer dark:border-white dark:bg-black";
   return (
     <>
       <form
-        className=" pt-8  px-4 pb-24"
+        className="pt-8 px-4 pb-24"
         onSubmit={(e) => {
           e.preventDefault();
           setData(calculate(Year, Version, Points, Quantity, Random));
@@ -36,124 +33,182 @@ export default function Start() {
           setUserLostPoints(0);
         }}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-4">
-          <select
+        <div className="flex flex-wrap gap-2 justify-start items-center">
+          <Select
             onChange={(e: any) => {
               setYear(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={2023}>წელი: 2023</option>
-            <option value={2022}>წელი: 2022</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 2023,
+                text: "წელი: 2023",
+              },
+              {
+                value: 2022,
+                text: "წელი: 2022",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setVersion(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>ვარიანტი: ყველა</option>
-            <option value={1}>ვარიანტი: 1</option>
-            <option value={2}>ვარიანტი: 2</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 0,
+                text: "ვარიანტი: ყველა",
+              },
+              {
+                value: 1,
+                text: "ვარიანტი: 1",
+              },
+              {
+                value: 2,
+                text: "ვარიანტი: 2",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setPoints(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>ქულები: ყველა</option>
-            <option value={1}>ქულები: 1</option>
-            {Year == 2022 && <option value={2}>ქულები: 2</option>}
-            <option value={3}>ქულები: 3</option>
-            <option value={4}>ქულები: 4</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 0,
+                text: "ქულები: ყველა",
+              },
+              {
+                value: 1,
+                text: "ქულები: 1",
+              },
+              {
+                value: 2,
+                text: "ქულები: 2",
+              },
+              {
+                value: 3,
+                text: "ქულები: 3",
+              },
+              {
+                value: 4,
+                text: "ქულები: 4  ",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setQuantity(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>რაოდენობა: ყველა</option>
-            <option value={1}>რაოდენობა: 1</option>
-            <option value={5}>რაოდენობა: 5</option>
-            <option value={10}>რაოდენობა: 10</option>
-            <option value={30}>რაოდენობა: 30</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 0,
+                text: "რაოდენობა: ყველა",
+              },
+              {
+                value: 1,
+                text: "რაოდენობა: 1",
+              },
+              {
+                value: 5,
+                text: "რაოდენობა: 5",
+              },
+              {
+                value: 10,
+                text: "რაოდენობა: 10",
+              },
+              {
+                value: 30,
+                text: "ქულრაოდენობაები: 30  ",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setTimer(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>ტაიმერი: კი</option>
-            <option value={1}>ტაიმერი: არა</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 0,
+                text: "ტაიმერი: კი",
+              },
+              {
+                value: 1,
+                text: "ტაიმერი: არა",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setBoard(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>დაფა: კი</option>
-            <option value={1}>დაფა: არა</option>
-          </select>
-          <select
+            options={[
+              {
+                value: 0,
+                text: "დაფა: კი",
+              },
+              {
+                value: 1,
+                text: "დაფა: არა",
+              },
+            ]}
+          />
+          <Select
             onChange={(e: any) => {
               setRandom(e.target.value);
             }}
-            className={selectClassName}
-          >
-            <option value={0}>რანდომი: კი</option>
-            <option value={1}>რანდომი: არა</option>
-          </select>
+            options={[
+              {
+                value: 0,
+                text: "რანდომი: კი",
+              },
+              {
+                value: 1,
+                text: "რანდომი: არა",
+              },
+            ]}
+          />
         </div>
-        <button
-          type="submit"
-          className="border-2 border-black rounded-3xl font-bold text-xl transition-all hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black p-4 my-8"
-        >
-          დაწყება
-        </button>
+        <Btn types="submit">დაწყება</Btn>
       </form>
-      {Data.length - 1 >= TestNumber ? (
-        Started && (
-          <>
-            <PointsBoard
-              points={userPoints}
-              lost_points={userLostPoints}
-              total_points={0}
-              problem={TestNumber}
-              total_problems={Data.length}
-              timer={Timer == 1}
+      {Data.length - 1 >= TestNumber
+        ? Started && (
+            <>
+              <PointsBoard
+                points={userPoints}
+                lost_points={userLostPoints}
+                total_points={0}
+                problem={TestNumber}
+                total_problems={Data.length}
+                timer={Timer == 1}
+              />
+              <Test
+                year={Data[TestNumber]?.year}
+                version={Data[TestNumber]?.version}
+                type={Data[TestNumber]?.type}
+                image={Data[TestNumber]?.image}
+                points={Data[TestNumber]?.points}
+                answer={Data[TestNumber]?.answer}
+                number={Data[TestNumber]?.number}
+                answerIsImage={Data[TestNumber]?.answerIsImage}
+                addPage={() => setTestNumber(TestNumber + 1)}
+                removePage={() => setTestNumber(TestNumber - 1)}
+                addPoints={() =>
+                  setUserPoints(userPoints + Data[TestNumber]?.points)
+                }
+                addLostPoints={() =>
+                  setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
+                }
+              />
+              {Board == 0 && <BoardF />}
+            </>
+          )
+        : Started && (
+            <Final
+              Points={userPoints}
+              LostPoints={userLostPoints}
+              TotalProblems={Data.length}
             />
-            <Test
-              year={Data[TestNumber]?.year}
-              version={Data[TestNumber]?.version}
-              type={Data[TestNumber]?.type}
-              image={Data[TestNumber]?.image}
-              points={Data[TestNumber]?.points}
-              answer={Data[TestNumber]?.answer}
-              number={Data[TestNumber]?.number}
-              answerIsImage={Data[TestNumber]?.answerIsImage}
-              addPage={() => setTestNumber(TestNumber + 1)}
-              removePage={() => setTestNumber(TestNumber - 1)}
-              addPoints={() =>
-                setUserPoints(userPoints + Data[TestNumber]?.points)
-              }
-              addLostPoints={() =>
-                setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
-              }
-            />
-            {Board == 0 && <BoardF />}
-          </>
-        )
-      ) : (
-        <Final
-          Points={userPoints}
-          LostPoints={userLostPoints}
-          TotalProblems={Data.length}
-        />
-      )}
+          )}
     </>
   );
 }

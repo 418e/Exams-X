@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="bg-white">
-              <img src={`ex-x.png`} />
+              <img src={`/ex-x.png`} />
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500 dark:text-gray-400">
