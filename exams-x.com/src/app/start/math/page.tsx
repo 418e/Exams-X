@@ -55,10 +55,6 @@ export default function Start() {
         className="pt-8 px-4 pb-24"
         onSubmit={(e) => {
           e.preventDefault();
-          localStorage.setItem(
-            "math",
-            "{ strong: [0], weak: [0], points: [{ tag: 0, points: 0 }] }"
-          );
           setTestNumber(0);
           setStarter(true);
           setUserPoints(0);

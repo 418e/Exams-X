@@ -15,9 +15,8 @@
     Imports
 */
 
-const math = localStorage.getItem("math") || "[]";
-const eng = localStorage.getItem("math") || "[]";
-const geo = localStorage.getItem("math") || "[]";
+const math =  "[]";
+
 
 /* 
     Functions
