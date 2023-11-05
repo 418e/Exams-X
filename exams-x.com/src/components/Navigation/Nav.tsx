@@ -14,6 +14,7 @@ export default function Nav() {
           <img
             src={`${Dark ? "/ex-x-2.png" : "/ex-x.png"}`}
             className="h-16 cursor-pointer"
+            alt="Exams-X"
           />
           <span className="absolute top-8 left-0 ml-28 bg-black text-white p-1 rounded-3xl text-xs dark:bg-white dark:text-black">
             Beta

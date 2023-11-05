@@ -31,7 +31,7 @@ export default function Test(props: CalculationWithFn) {
         <div className="w-full flex justify-center">
           <Image
             src={props.image}
-            className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
+            className="h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
             height={2048}
             width={2048}
             alt={`${props.number}`}
@@ -92,12 +92,17 @@ export default function Test(props: CalculationWithFn) {
                 {props.answerIsImage &&
                   Success && // @ts-ignore
                   props.answer.map((e: string) => {
+                    
                     return (
-                      <img
-                        key={e}
-                        src={e}
-                        className="h-[70vh] lg:h-[80vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
-                      />
+                        <Image
+                          height={4096}
+                          width={4096}
+                          alt={`${props.number}`}
+                          loading="lazy"
+                          key={e}
+                          src={e}
+                          className={`h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none pb-2 object-contain`}
+                        />
                     );
                   })}
               </div>
