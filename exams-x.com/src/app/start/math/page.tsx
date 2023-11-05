@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { calculate } from "@/data/DMA";
 import Test from "@/components/Start/Test";
 import BoardF from "@/components/Start/Board";
@@ -8,25 +8,49 @@ import Final from "@/components/Start/Final";
 import { Btn, Select } from "@/components/UI";
 
 export default function Start() {
+  // Year of the test
   const [Year, setYear] = useState(2023);
+
+  // Version of the test
   const [Version, setVersion] = useState(1);
+
+  // Points of the problem
   const [Points, setPoints] = useState(0);
+
+  // Quantity of problems
   const [Quantity, setQuantity] = useState(0);
+
+  // Order of the test
   const [Random, setRandom] = useState(0);
+
+  // Is test started?
   const [Started, setStarter] = useState(false);
+
+  // Whiteboard
   const [Board, setBoard] = useState(0);
+
+  // Timer
   const [Timer, setTimer] = useState(0);
+
+  // Number of the current problem
   const [TestNumber, setTestNumber] = useState(1);
-  const [Data, setData]: [Calculation[], any] = useState([]);
+
+  // Points achieved by answering correctly
   const [userPoints, setUserPoints] = useState(0);
+
+  // Points lost by answering incorreclty
   const [userLostPoints, setUserLostPoints] = useState(0);
+
+  // DMA calculated data
+  const Data: Calculation[] = useMemo(() => {
+    return calculate(Year, Version, Points, Quantity, Random);
+  }, [Year, Version, Points, Quantity, Random]);
   return (
     <>
       <form
         className="pt-8 px-4 pb-24"
         onSubmit={(e) => {
           e.preventDefault();
-          setData(calculate(Year, Version, Points, Quantity, Random));
           setTestNumber(0);
           setStarter(true);
           setUserPoints(0);

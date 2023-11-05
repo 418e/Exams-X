@@ -3,10 +3,17 @@ import CorrectModal from "./Correct";
 import Btn from "../UI/Button";
 
 export default function Test(props: CalculationWithFn) {
+  // Answer set by user (closed question)
   const [Answer, setAnswer] = useState("");
+  
+  // Answer set by user (open question)
   const [OpenAnswer, setOpenAnswer] = useState("1");
+
+  // Correctness of user's answers
   const [Correct, setCorrect] = useState(false);
   const [Incorrect, setIncorrect] = useState(false);
+
+  // If process was successfull
   const [Success, setSuccess] = useState(false);
   return (
     <section
