@@ -4,7 +4,7 @@ Free and open-source tool to help students pass the National Exams of Georgia
 
 ## Features
 
-- Over 150 problems in 1 subject (Math)
+- Over 300 problems in 1 subject (Math)
 - Advanced control over test
 - Dark mode
 - App tracks points and problems

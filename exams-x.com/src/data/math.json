@@ -655,6 +655,334 @@
       "points": 4,
       "type": "open",
       "answer": ["41.png"]
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 1,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 2,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 3,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 4,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 5,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 6,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 7,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 8,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 9,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 10,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 11,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 12,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 13,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 14,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 15,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 16,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 17,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 18,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 19,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 20,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 21,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 22,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 2,
+      "number": 23,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 24,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 25,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 26,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 27,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 28,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 29,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 30,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 31,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 32,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 33,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 34,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 35,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 36,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 37,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 38,
+      "points": 3,
+      "type": "open",
+      "answer": ["38.png"]
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 39,
+      "points": 3,
+      "type": "open",
+      "answer": ["39.png"]
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 40,
+      "points": 4,
+      "type": "open",
+      "answer": ["40.png"]
+    },
+    {
+      "year": 2023,
+      "version": 3,
+      "number": 41,
+      "points": 4,
+      "type": "open",
+      "answer": ["41.png"]
     }
   ],
   "2022": [
@@ -1217,6 +1545,1128 @@
       "points": 4,
       "type": "open",
       "answer": ["35_1.png", "35_2.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 1,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 2,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 3,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 4,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 5,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 6,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 7,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 8,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 9,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 10,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 11,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 12,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 13,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 14,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 15,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 16,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 17,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 18,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 19,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 20,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 21,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 22,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 23,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 24,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 25,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 26,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 27,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 28,
+      "points": 2,
+      "type": "open",
+      "answer": ["28.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 29,
+      "points": 2,
+      "type": "open",
+      "answer": ["29.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 30,
+      "points": 3,
+      "type": "open",
+      "answer": ["30.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 31,
+      "points": 3,
+      "type": "open",
+      "answer": ["31.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 32,
+      "points": 3,
+      "type": "open",
+      "answer": ["32.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 3,
+      "points": 3,
+      "type": "open",
+      "answer": ["33.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 34,
+      "points": 4,
+      "type": "open",
+      "answer": ["34_1.png", "34_2.png"]
+    },
+    {
+      "year": 2022,
+      "version": 3,
+      "number": 35,
+      "points": 4,
+      "type": "open",
+      "answer": ["35_1.png", "35_2.png"]
+    }
+  ],
+  "2021": [
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 1,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 2,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 3,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 4,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 5,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 6,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 7,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 8,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 9,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 10,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 11,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 12,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 13,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 14,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 15,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 16,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 17,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 18,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 19,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 20,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 21,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 22,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 23,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 24,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 25,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 26,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 27,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 28,
+      "points": 2,
+      "type": "open",
+      "answer": ["28.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 29,
+      "points": 2,
+      "type": "open",
+      "answer": ["29.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 30,
+      "points": 3,
+      "type": "open",
+      "answer": ["30.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 31,
+      "points": 3,
+      "type": "open",
+      "answer": ["31.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 32,
+      "points": 3,
+      "type": "open",
+      "answer": ["32.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 3,
+      "points": 3,
+      "type": "open",
+      "answer": ["33.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 34,
+      "points": 4,
+      "type": "open",
+      "answer": ["34_1.png", "34_2.png", "34_3.png"]
+    },
+    {
+      "year": 2021,
+      "version": 1,
+      "number": 35,
+      "points": 4,
+      "type": "open",
+      "answer": ["35_1.png", "35_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 1,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 2,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 3,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 4,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 5,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 6,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 7,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 8,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 9,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 10,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 11,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 12,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 13,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 14,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 15,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 16,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 17,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 18,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 19,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 20,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 21,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 22,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 23,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 24,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 25,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 26,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 27,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 28,
+      "points": 2,
+      "type": "open",
+      "answer": ["28.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 29,
+      "points": 2,
+      "type": "open",
+      "answer": ["29.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 30,
+      "points": 3,
+      "type": "open",
+      "answer": ["30.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 31,
+      "points": 3,
+      "type": "open",
+      "answer": ["31_1.png", "31_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 32,
+      "points": 3,
+      "type": "open",
+      "answer": ["32.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 33,
+      "points": 3,
+      "type": "open",
+      "answer": ["33.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 34,
+      "points": 4,
+      "type": "open",
+      "answer": ["34_1.png", "34_2.png", "34_3.png"]
+    },
+    {
+      "year": 2021,
+      "version": 2,
+      "number": 35,
+      "points": 4,
+      "type": "open",
+      "answer": ["35_1.png", "35_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 1,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 2,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 3,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 4,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 5,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 6,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 7,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 8,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 9,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 10,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 11,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 12,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 13,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 14,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 15,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 16,
+      "points": 1,
+      "type": "closed",
+      "answer": "ბ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 17,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 18,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 19,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 20,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 21,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 22,
+      "points": 1,
+      "type": "closed",
+      "answer": "ა"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 23,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 24,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 25,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 26,
+      "points": 1,
+      "type": "closed",
+      "answer": "გ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 27,
+      "points": 1,
+      "type": "closed",
+      "answer": "დ"
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 28,
+      "points": 2,
+      "type": "open",
+      "answer": ["28.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 29,
+      "points": 2,
+      "type": "open",
+      "answer": ["29.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 30,
+      "points": 3,
+      "type": "open",
+      "answer": ["30.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 31,
+      "points": 3,
+      "type": "open",
+      "answer": ["31_1.png", "31_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 32,
+      "points": 3,
+      "type": "open",
+      "answer": ["32.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 3,
+      "points": 3,
+      "type": "open",
+      "answer": ["33_1.png", "33_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 34,
+      "points": 4,
+      "type": "open",
+      "answer": ["34_1.png", "34_2.png"]
+    },
+    {
+      "year": 2021,
+      "version": 3,
+      "number": 35,
+      "points": 4,
+      "type": "open",
+      "answer": ["35_1.png", "35_2.png", "35_3.png"]
     }
   ]
 }

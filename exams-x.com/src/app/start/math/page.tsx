@@ -71,6 +71,10 @@ export default function Start() {
                 value: 2022,
                 text: "წელი: 2022",
               },
+              {
+                value: 2021,
+                text: "წელი: 2021",
+              }
             ]}
           />
           <Select
@@ -89,6 +93,10 @@ export default function Start() {
               {
                 value: 2,
                 text: "ვარიანტი: 2",
+              },
+              {
+                value: 3,
+                text: "ვარიანტი: 3",
               },
             ]}
           />
