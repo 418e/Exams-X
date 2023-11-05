@@ -6,7 +6,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [104]
     },
     {
       "year": 2023,
@@ -14,7 +15,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [100]
     },
     {
       "year": 2023,
@@ -22,7 +24,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [101]
     },
     {
       "year": 2023,
@@ -30,7 +33,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [149, 150, 156]
     },
     {
       "year": 2023,
@@ -38,7 +42,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [167]
     },
     {
       "year": 2023,
@@ -46,7 +51,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [106, 107]
     },
     {
       "year": 2023,
@@ -54,7 +60,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [113, 114, 115]
     },
     {
       "year": 2023,
@@ -62,7 +69,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [107, 130]
     },
     {
       "year": 2023,
@@ -70,7 +78,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [120, 122, 107]
     },
     {
       "year": 2023,
@@ -78,7 +87,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [125, 132, 128]
     },
     {
       "year": 2023,
@@ -86,7 +96,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [176, 148, 147]
     },
     {
       "year": 2023,
@@ -94,7 +105,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [172, 201]
     },
     {
       "year": 2023,
@@ -102,7 +114,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [193, 192, 198]
     },
     {
       "year": 2023,
@@ -110,7 +123,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [120, 200]
     },
     {
       "year": 2023,
@@ -118,7 +132,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [138]
     },
     {
       "year": 2023,
@@ -126,7 +141,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [136]
     },
     {
       "year": 2023,
@@ -134,7 +150,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [101]
     },
     {
       "year": 2023,
@@ -142,7 +159,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [120, 110, 203]
     },
     {
       "year": 2023,
@@ -150,7 +168,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [119, 120, 122]
     },
     {
       "year": 2023,
@@ -158,7 +177,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [140, 150]
     },
     {
       "year": 2023,
@@ -166,7 +186,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [120, 200]
     },
     {
       "year": 2023,
@@ -174,7 +195,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [203]
     },
     {
       "year": 2023,
@@ -182,7 +204,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [122, 131]
     },
     {
       "year": 2023,
@@ -190,7 +213,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [120, 122, 130]
     },
     {
       "year": 2023,
@@ -198,7 +222,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [134]
     },
     {
       "year": 2023,
@@ -206,7 +231,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [196, 197]
     },
     {
       "year": 2023,
@@ -214,7 +240,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [120, 181]
     },
     {
       "year": 2023,
@@ -222,7 +249,8 @@
       "number": 28,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [111]
     },
     {
       "year": 2023,
@@ -230,7 +258,8 @@
       "number": 29,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [119]
     },
     {
       "year": 2023,
@@ -238,7 +267,8 @@
       "number": 30,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [110, 168]
     },
     {
       "year": 2023,
@@ -246,7 +276,8 @@
       "number": 31,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [119, 133]
     },
     {
       "year": 2023,
@@ -254,7 +285,8 @@
       "number": 32,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": [137]
     },
     {
       "year": 2023,
@@ -262,7 +294,8 @@
       "number": 33,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [109]
     },
     {
       "year": 2023,
@@ -270,7 +303,8 @@
       "number": 34,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [190]
     },
     {
       "year": 2023,
@@ -278,7 +312,8 @@
       "number": 35,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": [202, 125, 111]
     },
     {
       "year": 2023,
@@ -286,7 +321,8 @@
       "number": 36,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": [172, 173, 175, 178]
     },
     {
       "year": 2023,
@@ -294,7 +330,8 @@
       "number": 37,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": [192]
     },
     {
       "year": 2023,
@@ -302,6 +339,7 @@
       "number": 38,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["38.png"]
     },
     {
@@ -310,6 +348,7 @@
       "number": 39,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["39_1.png", "39_2.png"]
     },
     {
@@ -318,6 +357,7 @@
       "number": 40,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["40_1.png", "40_2.png"]
     },
     {
@@ -326,6 +366,7 @@
       "number": 41,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["41.png"]
     },
     {
@@ -334,7 +375,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -342,7 +384,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -350,7 +393,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -358,7 +402,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -366,7 +411,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -374,7 +420,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -382,7 +429,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -390,7 +438,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -398,7 +447,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -406,7 +456,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -414,7 +465,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -422,7 +474,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -430,7 +483,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -438,7 +492,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -446,7 +501,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -454,7 +510,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -462,7 +519,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -470,7 +528,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -478,7 +537,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -486,7 +546,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -494,7 +555,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -502,7 +564,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -510,7 +573,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -518,7 +582,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -526,7 +591,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -534,7 +600,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -542,7 +609,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -550,7 +618,8 @@
       "number": 28,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -558,7 +627,8 @@
       "number": 29,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -566,7 +636,8 @@
       "number": 30,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -574,7 +645,8 @@
       "number": 31,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -582,7 +654,8 @@
       "number": 32,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -590,7 +663,8 @@
       "number": 33,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -598,7 +672,8 @@
       "number": 34,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -606,7 +681,8 @@
       "number": 35,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -614,7 +690,8 @@
       "number": 36,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -622,7 +699,8 @@
       "number": 37,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -630,6 +708,7 @@
       "number": 38,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["38.png"]
     },
     {
@@ -638,6 +717,7 @@
       "number": 39,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["39_1.png", "39_2.png"]
     },
     {
@@ -646,6 +726,7 @@
       "number": 40,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["40_1.png", "40_2.png"]
     },
     {
@@ -654,6 +735,7 @@
       "number": 41,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["41.png"]
     },
     {
@@ -662,7 +744,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -670,7 +753,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -678,7 +762,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -686,7 +771,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -694,7 +780,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -702,7 +789,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -710,7 +798,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -718,7 +807,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -726,7 +816,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -734,7 +825,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -742,7 +834,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -750,7 +843,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -758,7 +852,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -766,7 +861,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -774,7 +870,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -782,7 +879,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -790,7 +888,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -798,7 +897,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -806,7 +906,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -814,7 +915,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -822,7 +924,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -830,7 +933,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -838,7 +942,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -846,7 +951,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -854,7 +960,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -862,7 +969,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -870,7 +978,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -878,7 +987,8 @@
       "number": 28,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -886,7 +996,8 @@
       "number": 29,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2023,
@@ -894,7 +1005,8 @@
       "number": 30,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -902,7 +1014,8 @@
       "number": 31,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -910,7 +1023,8 @@
       "number": 32,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -918,7 +1032,8 @@
       "number": 33,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -926,7 +1041,8 @@
       "number": 34,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -934,7 +1050,8 @@
       "number": 35,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -942,7 +1059,8 @@
       "number": 36,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -950,7 +1068,8 @@
       "number": 37,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2023,
@@ -958,6 +1077,7 @@
       "number": 38,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["38.png"]
     },
     {
@@ -966,6 +1086,7 @@
       "number": 39,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["39.png"]
     },
     {
@@ -974,6 +1095,7 @@
       "number": 40,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["40.png"]
     },
     {
@@ -982,6 +1104,7 @@
       "number": 41,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["41.png"]
     }
   ],
@@ -992,7 +1115,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1000,7 +1124,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1008,7 +1133,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1016,7 +1142,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1024,7 +1151,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1032,7 +1160,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1040,7 +1169,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1048,7 +1178,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1056,7 +1187,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1064,7 +1196,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1072,7 +1205,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1080,7 +1214,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1088,7 +1223,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1096,7 +1232,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1104,7 +1241,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1112,7 +1250,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1120,7 +1259,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1128,7 +1268,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1136,7 +1277,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1144,7 +1286,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1152,7 +1295,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1160,7 +1304,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1168,7 +1313,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1176,7 +1322,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1184,7 +1331,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1192,7 +1340,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1200,7 +1349,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1208,6 +1358,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -1216,6 +1367,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -1224,6 +1376,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -1232,6 +1385,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31.png"]
     },
     {
@@ -1240,6 +1394,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -1248,6 +1403,7 @@
       "number": 3,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33.png"]
     },
     {
@@ -1256,6 +1412,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png"]
     },
     {
@@ -1264,6 +1421,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png", "35_3.png"]
     },
     {
@@ -1272,7 +1430,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1280,7 +1439,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1288,7 +1448,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1296,7 +1457,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1304,7 +1466,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1312,7 +1475,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1320,7 +1484,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1328,7 +1493,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1336,7 +1502,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1344,7 +1511,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1352,7 +1520,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1360,7 +1529,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1368,7 +1538,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1376,7 +1547,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1384,7 +1556,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1392,7 +1565,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1400,7 +1574,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1408,7 +1583,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1416,7 +1592,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1424,7 +1601,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1432,7 +1610,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1440,7 +1619,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1448,7 +1628,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1456,7 +1637,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1464,7 +1646,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1472,7 +1655,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1480,7 +1664,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1488,6 +1673,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -1496,6 +1682,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -1504,6 +1691,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -1512,6 +1700,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31.png"]
     },
     {
@@ -1520,6 +1709,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -1528,6 +1718,7 @@
       "number": 3,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33.png"]
     },
     {
@@ -1536,6 +1727,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png"]
     },
     {
@@ -1544,6 +1736,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png"]
     },
     {
@@ -1552,7 +1745,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1560,7 +1754,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1568,7 +1763,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1576,7 +1772,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1584,7 +1781,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1592,7 +1790,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1600,7 +1799,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1608,7 +1808,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1616,7 +1817,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1624,7 +1826,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1632,7 +1835,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1640,7 +1844,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1648,7 +1853,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1656,7 +1862,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1664,7 +1871,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1672,7 +1880,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1680,7 +1889,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1688,7 +1898,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1696,7 +1907,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1704,7 +1916,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1712,7 +1925,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1720,7 +1934,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1728,7 +1943,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1736,7 +1952,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1744,7 +1961,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1752,7 +1970,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1760,7 +1979,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2022,
@@ -1768,6 +1988,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -1776,6 +1997,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -1784,6 +2006,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -1792,6 +2015,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31.png"]
     },
     {
@@ -1800,6 +2024,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -1808,6 +2033,7 @@
       "number": 3,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33.png"]
     },
     {
@@ -1816,6 +2042,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png"]
     },
     {
@@ -1824,6 +2051,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png"]
     }
   ],
@@ -1834,7 +2062,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1842,7 +2071,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1850,7 +2080,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1858,7 +2089,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1866,7 +2098,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1874,7 +2107,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1882,7 +2116,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1890,7 +2125,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1898,7 +2134,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1906,7 +2143,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1914,7 +2152,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1922,7 +2161,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1930,7 +2170,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1938,7 +2179,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1946,7 +2188,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1954,7 +2197,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1962,7 +2206,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1970,7 +2215,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1978,7 +2224,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1986,7 +2233,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -1994,7 +2242,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2002,7 +2251,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2010,7 +2260,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2018,7 +2269,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2026,7 +2278,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2034,7 +2287,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2042,7 +2296,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2050,6 +2305,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -2058,6 +2314,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -2066,6 +2323,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -2074,6 +2332,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31.png"]
     },
     {
@@ -2082,6 +2341,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -2090,6 +2350,7 @@
       "number": 3,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33.png"]
     },
     {
@@ -2098,6 +2359,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png", "34_3.png"]
     },
     {
@@ -2106,6 +2368,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png"]
     },
     {
@@ -2114,7 +2377,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2122,7 +2386,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2130,7 +2395,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2138,7 +2404,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2146,7 +2413,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2154,7 +2422,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2162,7 +2431,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2170,7 +2440,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2178,7 +2449,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2186,7 +2458,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2194,7 +2467,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2202,7 +2476,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2210,7 +2485,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2218,7 +2494,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2226,7 +2503,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2234,7 +2512,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2242,7 +2521,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2250,7 +2530,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2258,7 +2539,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2266,7 +2548,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2274,7 +2557,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2282,7 +2566,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2290,7 +2575,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2298,7 +2584,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2306,7 +2593,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2314,7 +2602,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2322,7 +2611,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2330,6 +2620,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -2338,6 +2629,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -2346,6 +2638,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -2354,6 +2647,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31_1.png", "31_2.png"]
     },
     {
@@ -2362,6 +2656,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -2370,6 +2665,7 @@
       "number": 33,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33.png"]
     },
     {
@@ -2378,6 +2674,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png", "34_3.png"]
     },
     {
@@ -2386,6 +2683,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png"]
     },
     {
@@ -2394,7 +2692,8 @@
       "number": 1,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2402,7 +2701,8 @@
       "number": 2,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2410,7 +2710,8 @@
       "number": 3,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2418,7 +2719,8 @@
       "number": 4,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2426,7 +2728,8 @@
       "number": 5,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2434,7 +2737,8 @@
       "number": 6,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2442,7 +2746,8 @@
       "number": 7,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2450,7 +2755,8 @@
       "number": 8,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2458,7 +2764,8 @@
       "number": 9,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2466,7 +2773,8 @@
       "number": 10,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2474,7 +2782,8 @@
       "number": 11,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2482,7 +2791,8 @@
       "number": 12,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2490,7 +2800,8 @@
       "number": 13,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2498,7 +2809,8 @@
       "number": 14,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2506,7 +2818,8 @@
       "number": 15,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2514,7 +2827,8 @@
       "number": 16,
       "points": 1,
       "type": "closed",
-      "answer": "ბ"
+      "answer": "ბ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2522,7 +2836,8 @@
       "number": 17,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2530,7 +2845,8 @@
       "number": 18,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2538,7 +2854,8 @@
       "number": 19,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2546,7 +2863,8 @@
       "number": 20,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2554,7 +2872,8 @@
       "number": 21,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2562,7 +2881,8 @@
       "number": 22,
       "points": 1,
       "type": "closed",
-      "answer": "ა"
+      "answer": "ა",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2570,7 +2890,8 @@
       "number": 23,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2578,7 +2899,8 @@
       "number": 24,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2586,7 +2908,8 @@
       "number": 25,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2594,7 +2917,8 @@
       "number": 26,
       "points": 1,
       "type": "closed",
-      "answer": "გ"
+      "answer": "გ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2602,7 +2926,8 @@
       "number": 27,
       "points": 1,
       "type": "closed",
-      "answer": "დ"
+      "answer": "დ",
+      "tags": []
     },
     {
       "year": 2021,
@@ -2610,6 +2935,7 @@
       "number": 28,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["28.png"]
     },
     {
@@ -2618,6 +2944,7 @@
       "number": 29,
       "points": 2,
       "type": "open",
+      "tags": [],
       "answer": ["29.png"]
     },
     {
@@ -2626,6 +2953,7 @@
       "number": 30,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["30.png"]
     },
     {
@@ -2634,6 +2962,7 @@
       "number": 31,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["31_1.png", "31_2.png"]
     },
     {
@@ -2642,6 +2971,7 @@
       "number": 32,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["32.png"]
     },
     {
@@ -2650,6 +2980,7 @@
       "number": 3,
       "points": 3,
       "type": "open",
+      "tags": [],
       "answer": ["33_1.png", "33_2.png"]
     },
     {
@@ -2658,6 +2989,7 @@
       "number": 34,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["34_1.png", "34_2.png"]
     },
     {
@@ -2666,6 +2998,7 @@
       "number": 35,
       "points": 4,
       "type": "open",
+      "tags": [],
       "answer": ["35_1.png", "35_2.png", "35_3.png"]
     }
   ]

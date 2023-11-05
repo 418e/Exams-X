@@ -92,17 +92,16 @@ export default function Test(props: CalculationWithFn) {
                 {props.answerIsImage &&
                   Success && // @ts-ignore
                   props.answer.map((e: string) => {
-                    
                     return (
-                        <Image
-                          height={4096}
-                          width={4096}
-                          alt={`${props.number}`}
-                          loading="lazy"
-                          key={e}
-                          src={e}
-                          className={`h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none pb-2 object-contain`}
-                        />
+                      <Image
+                        height={4096}
+                        width={4096}
+                        alt={`${props.number}`}
+                        loading="lazy"
+                        key={e}
+                        src={e}
+                        className={`h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none pb-2 object-contain`}
+                      />
                     );
                   })}
               </div>
@@ -129,9 +128,31 @@ export default function Test(props: CalculationWithFn) {
                 const answ = props.answer[0][props.answer[0].length - 1];
                 setCorrect(false);
                 setIncorrect(false);
+                const storage: {
+                  strong: number[];
+                  weak: number[];
+                  points: { tag: number; points: number }[];
+                } = {
+                  strong: [0],
+                  weak: [0],
+                  points: [{ tag: 0, points: 0 }],
+                };
+
+                console.log(storage);
                 if (props.type == "closed" && answ == Answer) {
                   // correct closed answer
                   setSuccess(true);
+
+                  props.tags.map((tag: number) => {
+                    storage.strong.push(tag);
+                  });
+                  props.tags.map((tag: number) => {
+                    storage.points.push({
+                      tag: tag,
+                      points: props.points,
+                    });
+                  });
+                  props.addStrongtags(storage.strong);
                   props.addPoints();
                   setAnswer("");
                   setSuccess(false);
@@ -140,6 +161,11 @@ export default function Test(props: CalculationWithFn) {
                 } else if (props.type == "closed" && answ !== Answer) {
                   // incorrect closed answer
                   setSuccess(false);
+
+                  props.tags.map((tag: number) => {
+                    storage.weak.push(tag);
+                  });
+                  props.addWeaktags(storage.weak);
                   props.addLostPoints();
                   setAnswer("");
                   setIncorrect(true);

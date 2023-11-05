@@ -7,6 +7,7 @@ interface Calculation {
   image: string;
   answerIsImage: boolean;
   answer: string | string[];
+  tags: number[] | [];
 }
 
 interface CalculationWithFn {
@@ -18,10 +19,13 @@ interface CalculationWithFn {
   image: string;
   answerIsImage: boolean;
   answer: string | string[];
+  tags: number[] | [];
   addPage: any;
   removePage: any;
   addPoints: any;
   addLostPoints: any;
+  addStrongtags: (tag: number[]) => any;
+  addWeaktags: (tag: number[]) => any;
 }
 
 interface Scheme {
@@ -31,6 +35,7 @@ interface Scheme {
   points: number;
   type: "closed" | "open";
   answer: string | string[];
+  tags: number[] | [];
 }
 
 type lang = "math" | "geo" | "eng";

@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { calculate } from "@/data/DMA";
+import { calculate } from "@/data";
 import Test from "@/components/Start/Test";
 import BoardF from "@/components/Start/Board";
 import PointsBoard from "@/components/Start/Points";
@@ -41,6 +41,10 @@ export default function Start() {
   // Points lost by answering incorreclty
   const [userLostPoints, setUserLostPoints] = useState(0);
 
+  // Tags
+  const [StrongTags, setStrongTags]: [number[], any] = useState([]);
+  const [WeakTags, setWeakTags]: [number[], any] = useState([]);
+
   // DMA calculated data
   const Data: Calculation[] = useMemo(() => {
     return calculate(Year, Version, Points, Quantity, Random);
@@ -51,6 +55,10 @@ export default function Start() {
         className="pt-8 px-4 pb-24"
         onSubmit={(e) => {
           e.preventDefault();
+          localStorage.setItem(
+            "math",
+            "{ strong: [0], weak: [0], points: [{ tag: 0, points: 0 }] }"
+          );
           setTestNumber(0);
           setStarter(true);
           setUserPoints(0);
@@ -74,7 +82,7 @@ export default function Start() {
               {
                 value: 2021,
                 text: "წელი: 2021",
-              }
+              },
             ]}
           />
           <Select
@@ -221,6 +229,7 @@ export default function Start() {
                 points={Data[TestNumber]?.points}
                 answer={Data[TestNumber]?.answer}
                 number={Data[TestNumber]?.number}
+                tags={Data[TestNumber]?.tags}
                 answerIsImage={Data[TestNumber]?.answerIsImage}
                 addPage={() => setTestNumber(TestNumber + 1)}
                 removePage={() => setTestNumber(TestNumber - 1)}
@@ -230,6 +239,12 @@ export default function Start() {
                 addLostPoints={() =>
                   setUserLostPoints(userLostPoints + Data[TestNumber]?.points)
                 }
+                addStrongtags={(e) => {
+                  setStrongTags([...StrongTags, ...e]);
+                }}
+                addWeaktags={(e) => {
+                  setWeakTags([...WeakTags, ...e]);
+                }}
               />
               {Board == 0 && <BoardF />}
             </>
@@ -239,6 +254,8 @@ export default function Start() {
               Points={userPoints}
               LostPoints={userLostPoints}
               TotalProblems={Data.length}
+              StrongTags={StrongTags}
+              WeakTags={WeakTags}
             />
           )}
     </>

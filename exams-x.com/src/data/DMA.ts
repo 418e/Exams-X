@@ -191,6 +191,7 @@ function ReturnScheme(e: Scheme) {
     number: e.number,
     points: e.points,
     type: e.type,
+    tags: e.tags,
     image: getImage(e.year, e.version, e.number, "math"),
     answerIsImage: e.type == "open",
     answer:
@@ -216,7 +217,7 @@ function Quantify(arr: Calculation[], n: number): Calculation[] {
 
 // Data Managment Algorithm
 
-export function calculate(
+export default function calculate(
   year: number,
   version: number,
   points: number,
