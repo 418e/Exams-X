@@ -1,11 +1,12 @@
 import { useState } from "react";
 import CorrectModal from "./Correct";
 import Btn from "../UI/Button";
+import Image from "next/image";
 
 export default function Test(props: CalculationWithFn) {
   // Answer set by user (closed question)
   const [Answer, setAnswer] = useState("");
-  
+
   // Answer set by user (open question)
   const [OpenAnswer, setOpenAnswer] = useState("1");
 
@@ -28,9 +29,13 @@ export default function Test(props: CalculationWithFn) {
           {props.points} ქულა)
         </div>
         <div className="w-full flex justify-center">
-          <img
+          <Image
             src={props.image}
             className="h-[50vh] lg:h-[60vh] w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
+            height={2048}
+            width={2048}
+            alt={`${props.number}`}
+            loading="lazy"
           />
         </div>
         <form
