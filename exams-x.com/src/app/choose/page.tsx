@@ -1,4 +1,5 @@
-import ChooseList from "@/components/Choose";
+import { ChooseList } from "@/components";
+
 export default function Choose() {
   return (
     <>

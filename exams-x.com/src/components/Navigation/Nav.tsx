@@ -1,11 +1,14 @@
 "use client";
 import { CgDarkMode, CgMenu } from "react-icons/cg";
+import { MdNewspaper } from "react-icons/md";
 import Link from "next/link";
 import { useState } from "react";
+import News from "./Modal";
 
-export default function Nav() {
+export default function Nav({ toggle }: { toggle: any }) {
   const [Mobile, setMobile] = useState(false);
   const [Dark, setDark] = useState(false);
+  const [Modal, setModal] = useState(false);
 
   return (
     <nav className="h-16 w-full flex justify-between items-center border-b-4 border-black dark:border-white dark:bg-black dark:text-white">
@@ -36,6 +39,10 @@ export default function Nav() {
         </ul>
       </div>
       <div className="flex mr-8 space-x-8">
+        {Modal && <News />}
+        <div className="cursor-pointer" onClick={() => setModal(!Modal)}>
+          <MdNewspaper size={32} />
+        </div>
         <div
           className="cursor-pointer"
           onClick={() => {
@@ -43,10 +50,12 @@ export default function Nav() {
               localStorage.theme = "light";
               document.documentElement.classList.remove("dark");
               setDark(false);
+              toggle("light");
             } else if (localStorage.getItem("theme") == "light") {
               localStorage.theme = "dark";
               document.documentElement.classList.add("dark");
               setDark(true);
+              toggle("dark");
             } else {
               localStorage.removeItem("theme");
             }

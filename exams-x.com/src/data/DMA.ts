@@ -247,7 +247,6 @@ export default function calculate(
     return Quantify(calculated, quantity);
   } else if (version !== 0 && points !== 0) {
     // Configuration 3: version != all & points != all
-    console.log("configuration 3");
     const data: Scheme[] = ByVersionPoints(
       year,
       version,

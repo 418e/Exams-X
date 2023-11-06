@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import CorrectModal from "./Correct";
 import Btn from "../UI/Button";
@@ -138,7 +139,7 @@ export default function Test(props: CalculationWithFn) {
                   points: [{ tag: 0, points: 0 }],
                 };
 
-                console.log(storage);
+                
                 if (props.type == "closed" && answ == Answer) {
                   // correct closed answer
                   setSuccess(true);

@@ -1,14 +1,19 @@
+"use client";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/Navigation/Nav";
-import Footer from "@/components/Navigation/Footer";
+import { Nav, Footer } from "@/components";
+import { createContext, useState } from "react";
 const inter = Roboto_Mono({ subsets: ["latin"] });
+
+export const ThemeContext = createContext("");
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const [theme, setTheme] = useState("light");
+  // const theme = useContext(ThemeContext);
   return (
     <html lang="en">
       <head>
@@ -28,9 +33,11 @@ export default function RootLayout({
         <title>Exams-X</title>
       </head>
       <body className={inter.className + " dark:text-white"}>
-        <Nav />
-        <main className="dark:bg-black min-h-screen">{children}</main>
-        <Footer />
+        <ThemeContext.Provider value="light">
+          <Nav toggle={(e: string) => setTheme(e)} />
+          <main className="dark:bg-black min-h-screen">{children}</main>
+          <Footer theme={theme} />
+        </ThemeContext.Provider>
       </body>
     </html>
   );

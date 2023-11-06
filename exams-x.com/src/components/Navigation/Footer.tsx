@@ -1,12 +1,15 @@
 import Link from "next/link";
-export default function Footer() {
+export default function Footer({ theme }: { theme: string }) {
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <div className="bg-white">
-              <img src={`/ex-x.png`} alt="Exams-X"/>
+            <div>
+              <img
+                src={`${theme == "dark" ? "/ex-x-2.png" : "/ex-x.png"}`}
+                alt="Exams-X"
+              />
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500 dark:text-gray-400">

@@ -8,13 +8,14 @@ Free and open-source tool to help students pass the National Exams of Georgia
 - Advanced control over test
 - Dark mode
 - App tracks points and problems
+- Tagging, Tag tracking
 - Whiteboard
 
 ## ToDo
 
 - Over 5000 problems in 4 subjects (Math, English, Georgian, History)
 - App tracks time
-- Tagging, tag tracking and tag training
+- Tag training
 - Advanced results
 - More configurable tests
 - Problem featuring system
