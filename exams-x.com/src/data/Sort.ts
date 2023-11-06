@@ -1,5 +1,5 @@
 /*
-    Data Managment Algorithm
+    Sorting Algorithm
 */
 
 /* 
@@ -215,9 +215,9 @@ function Quantify(arr: Calculation[], n: number): Calculation[] {
     Algorithms
 */
 
-// Data Managment Algorithm
+// Sorting Algorithm
 
-export default function calculate(
+export default function Sort(
   year: number,
   version: number,
   points: number,

@@ -138,8 +138,6 @@ export default function Test(props: CalculationWithFn) {
                   weak: [0],
                   points: [{ tag: 0, points: 0 }],
                 };
-
-                
                 if (props.type == "closed" && answ == Answer) {
                   // correct closed answer
                   setSuccess(true);
@@ -162,7 +160,6 @@ export default function Test(props: CalculationWithFn) {
                 } else if (props.type == "closed" && answ !== Answer) {
                   // incorrect closed answer
                   setSuccess(false);
-
                   props.tags.map((tag: number) => {
                     storage.weak.push(tag);
                   });

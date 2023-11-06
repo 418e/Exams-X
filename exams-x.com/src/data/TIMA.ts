@@ -1,3 +1,0 @@
-/* 
-    Time Managment Algorithm
-*/

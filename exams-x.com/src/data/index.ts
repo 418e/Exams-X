@@ -1,4 +1,4 @@
-import calculate from "./DMA";
+import Sort from "./Sort";
 import { translate } from "./TMA";
 
-export { calculate, translate };
+export { Sort, translate };

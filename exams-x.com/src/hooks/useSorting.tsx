@@ -1,5 +1,5 @@
 "use client";
-import { calculate } from "@/data";
+import { Sort } from "@/data";
 import { useMemo, useState } from "react";
 import { Btn, Select, PointsBoard, Test, Final, BoardF } from "@/components";
 
@@ -12,7 +12,6 @@ export default function useSorting() {
     random: 0,
     started: false,
     board: 0,
-    timer: 0,
     test_number: 1,
     user_points: 0,
     lost_points: 0,
@@ -21,7 +20,7 @@ export default function useSorting() {
   });
 
   const Data: Calculation[] = useMemo(() => {
-    return calculate(
+    return Sort(
       States.year,
       States.version,
       States.points,
@@ -44,7 +43,6 @@ export default function useSorting() {
     random,
     started,
     board,
-    timer,
     test_number,
     user_points,
     lost_points,
@@ -58,14 +56,13 @@ export default function useSorting() {
     random?: number;
     started?: boolean;
     board?: number;
-    timer?: number;
     test_number?: number;
     user_points?: number;
     lost_points?: number;
     strong_tags?: number[];
     weak_tags?: number[];
   }) => {
-    setStates({
+    return {
       year: year || States.year,
       version: version || States.version,
       points: points || States.points,
@@ -73,13 +70,12 @@ export default function useSorting() {
       random: random || States.random,
       started: started || States.started,
       board: board || States.board,
-      timer: timer || States.timer,
       test_number: test_number || States.test_number,
       user_points: user_points || States.user_points,
       lost_points: lost_points || States.lost_points,
       strong_tags: strong_tags || States.strong_tags,
       weak_tags: weak_tags || States.weak_tags,
-    });
+    };
   };
 
   const Form = () => {
@@ -88,20 +84,24 @@ export default function useSorting() {
         className="pt-8 px-4 pb-24"
         onSubmit={(e) => {
           e.preventDefault();
-          ChangeState({
-            started: true,
-            test_number: 0,
-            user_points: 0,
-            lost_points: 0,
-          });
+          setStates(
+            ChangeState({
+              started: true,
+              test_number: 0,
+              user_points: 0,
+              lost_points: 0,
+            })
+          );
         }}
       >
         <div className="flex flex-wrap gap-2 justify-start items-center">
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                year: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  year: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -120,9 +120,11 @@ export default function useSorting() {
           />
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                version: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  version: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -145,9 +147,11 @@ export default function useSorting() {
           />
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                points: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  points: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -174,9 +178,11 @@ export default function useSorting() {
           />
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                quantity: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  quantity: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -203,26 +209,11 @@ export default function useSorting() {
           />
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                timer: e.target.value,
-              });
-            }}
-            options={[
-              {
-                value: 0,
-                text: "ტაიმერი: კი",
-              },
-              {
-                value: 1,
-                text: "ტაიმერი: არა",
-              },
-            ]}
-          />
-          <Select
-            onChange={(e: any) => {
-              ChangeState({
-                board: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  board: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -237,9 +228,11 @@ export default function useSorting() {
           />
           <Select
             onChange={(e: any) => {
-              ChangeState({
-                random: e.target.value,
-              });
+              setStates(
+                ChangeState({
+                  random: e.target.value,
+                })
+              );
             }}
             options={[
               {
@@ -270,7 +263,6 @@ export default function useSorting() {
                   total_points={0}
                   problem={States.test_number}
                   total_problems={Data.length}
-                  timer={States.timer == 1}
                 />
                 <Test
                   year={Data[States.test_number]?.year}
@@ -283,36 +275,48 @@ export default function useSorting() {
                   tags={Data[States.test_number]?.tags}
                   answerIsImage={Data[States.test_number]?.answerIsImage}
                   addPage={() => {
-                    ChangeState({
-                      test_number: States.test_number + 1,
-                    });
+                    setStates(
+                      ChangeState({
+                        test_number: States.test_number + 1,
+                      })
+                    );
                   }}
                   removePage={() => {
-                    ChangeState({
-                      test_number: States.test_number - 1,
-                    });
+                    setStates(
+                      ChangeState({
+                        test_number: States.test_number - 1,
+                      })
+                    );
                   }}
                   addPoints={() => {
-                    ChangeState({
-                      user_points:
-                        States.user_points + Data[States.test_number]?.points,
-                    });
+                    setStates(
+                      ChangeState({
+                        user_points:
+                          States.user_points + Data[States.test_number]?.points,
+                      })
+                    );
                   }}
                   addLostPoints={() => {
-                    ChangeState({
-                      lost_points:
-                        States.lost_points + Data[States.test_number]?.points,
-                    });
+                    setStates(
+                      ChangeState({
+                        lost_points:
+                          States.lost_points + Data[States.test_number]?.points,
+                      })
+                    );
                   }}
                   addStrongtags={(e) => {
-                    ChangeState({
-                      strong_tags: [...States.strong_tags, ...e],
-                    });
+                    setStates(
+                      ChangeState({
+                        strong_tags: [...States.strong_tags, ...e],
+                      })
+                    );
                   }}
                   addWeaktags={(e) => {
-                    ChangeState({
-                      weak_tags: [...States.weak_tags, ...e],
-                    });
+                    setStates(
+                      ChangeState({
+                        weak_tags: [...States.weak_tags, ...e],
+                      })
+                    );
                   }}
                 />
                 {States.board == 0 && <BoardF />}
