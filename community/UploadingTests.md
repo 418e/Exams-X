@@ -16,27 +16,28 @@ Locate png versions of the problems in the `/exams-x.com/public/{subject}_{year}
 
 ### Step 4
 
-Locate `{subject}.json` in the `/exams-x.com/src/data` directory and put every single problem inside them as a json. Each subject could have different format but Math has following:
+Enter the data in the `const settings` in `examx-x.com/server/index.js`
 
-```json
-    {
-      "year": 2023, // year of the test
-      "version": 1, // version of the test
-      "number": 2, // number of the problem
-      "points": 1, // points of the problem
-      "type": "closed", // type of the problem
-      "answer": "დ" // answer of the problem
-    }, // or
-    {
-      "year": 2023,
-      "version": 1,
-      "number": 40,
-      "points": 4,
-      "type": "open", // if type of the problem is open
-      "answer": ["40_1.png", "40_2.png"] // create array with names of the answer pictures you created in /{subject}_{year}_{version}_answers directory
-    }
+```js
+const settings = {
+  year: 2023, // year of the test
+  version: 1, // version of the test
+  number: 2, // number of the problem
+  points: 1, // points of the problem
+  type: "closed", // type of the problem
+  answer: "დ", // answer of the problem
+};
+// or
+const settings = {
+  year: 2023,
+  version: 1,
+  number: 40,
+  points: 4,
+  type: "open", // if type of the problem is open
+  answer: ["40_1.png", "40_2.png"], // create array with names of the answer pictures you created in /{subject}_{year}_{version}_answers directory
+};
 ```
 
+And then run `node server/index.js` in the terminal
+
 Visit [API Documentation] for more information.
-
-

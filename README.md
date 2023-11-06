@@ -11,17 +11,6 @@ Free and open-source tool to help students pass the National Exams of Georgia
 - Tagging, Tag tracking
 - Whiteboard
 
-## ToDo
-
-- Over 5000 problems in 4 subjects (Math, English, Georgian, History)
-- App tracks time
-- Tag training
-- Advanced results
-- More configurable tests
-- Problem featuring system
-- Hint system
-
-
 ## Run Locally
 
 Clone the project
