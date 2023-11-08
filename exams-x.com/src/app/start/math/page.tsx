@@ -204,6 +204,7 @@ export default function Start() {
                 number={Data[TestNumber]?.number}
                 tags={Data[TestNumber]?.tags}
                 answerIsImage={Data[TestNumber]?.answerIsImage}
+                doanswers={true}
                 addPage={() => setTestNumber(TestNumber + 1)}
                 removePage={() => setTestNumber(TestNumber - 1)}
                 addPoints={() =>

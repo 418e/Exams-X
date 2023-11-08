@@ -11,12 +11,11 @@ export default function Modal() {
     >
       <div className="h-96 w-96 p-4 text-center z-20 dark:bg-black dark:border rounded-xl bg-white cursor-pointer">
         <div className="font-bold text-2xl">განახლებები</div>
-        <div>0.1.6 (Nov 6)</div>
-        {/* <ul className="mt-8 space-y-4 font-bold">
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
-        </ul> */}
+        <div>0.1.9 (Nov 9)</div>
+        <ul className="mt-8 space-y-4 font-bold">
+          <li>დავალებები თემების მიხედვით</li>
+          <li>Beta ფუნქციები</li>
+        </ul>
       </div>
     </div>
   );

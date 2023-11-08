@@ -163,7 +163,7 @@ function ByPoints(year: number, points: number, random: boolean, lang: lang) {
 
 // returns /{subject}_{year}_{version}/{number}.png
 
-function getImage(year: number, version: number, number: number, lang: lang) {
+export function getImage(year: number, version: number, number: number, lang: lang) {
   return `/${lang}_${year}_${version}/${number}.png`;
 }
 

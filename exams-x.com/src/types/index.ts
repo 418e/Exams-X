@@ -17,15 +17,16 @@ interface CalculationWithFn {
   points: number;
   type: "open" | "closed";
   image: string;
-  answerIsImage: boolean;
+  answerIsImage?: boolean;
   answer: string | string[];
   tags: number[] | [];
-  addPage: any;
-  removePage: any;
-  addPoints: any;
-  addLostPoints: any;
-  addStrongtags: (tag: number[]) => any;
-  addWeaktags: (tag: number[]) => any;
+  doanswers?: boolean;
+  addPage?: any;
+  removePage?: any;
+  addPoints?: any;
+  addLostPoints?: any;
+  addStrongtags?: (tag: number[]) => any;
+  addWeaktags?: (tag: number[]) => any;
 }
 
 interface Scheme {

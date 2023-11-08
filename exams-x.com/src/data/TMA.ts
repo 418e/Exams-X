@@ -163,7 +163,3 @@ function getTags() {
     points: points,
   };
 }
-
-/* 
-    Algorithms
-*/

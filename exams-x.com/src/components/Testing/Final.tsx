@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { translate } from "@/data";
 export default function Final({
   Points,
@@ -26,8 +27,10 @@ export default function Final({
               (item, index) => StrongTags.indexOf(item) === index
             ).map((tag: number) => {
               return (
-                <li key={tag} className="font-bold">
-                  {translate(tag).tag}
+                <li key={tag} className="font-bold cursor-pointer hover:underline">
+                  <Link href={`/start/math/${translate(tag).id}`}>
+                    {translate(tag).tag}
+                  </Link>
                 </li>
               );
             })}
@@ -40,8 +43,13 @@ export default function Final({
               (item, index) => WeakTags.indexOf(item) === index
             ).map((tag: number) => {
               return (
-                <li key={tag} className="font-bold">
-                  {translate(tag).tag}
+                <li
+                  key={tag}
+                  className="font-bold cursor-pointer hover:underline"
+                >
+                  <Link href={`/start/math/${translate(tag).id}`}>
+                    {translate(tag).tag}
+                  </Link>
                 </li>
               );
             })}
