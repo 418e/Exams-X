@@ -17,6 +17,10 @@ export default function Test(props: CalculationWithFn) {
 
   // If process was successfull
   const [Success, setSuccess] = useState(false);
+
+  // Resize image
+  const [Resize, setResize] = useState(false);
+
   return (
     <section
       key={props.year + props.version + props.number}
@@ -29,13 +33,16 @@ export default function Test(props: CalculationWithFn) {
           {props.year}, ვარიანტი {props.version} / N{props.number} (
           {props.points} ქულა)
         </div>
-        <div className="w-full flex justify-center">
+        <div className={`w-full flex justify-center ${Resize && "overflow-visible"}`}>
           <Image
             src={props.image}
-            className="h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2"
+            className={`h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none object-contain pb-2 ${Resize && ""}`}
             height={2048}
             width={2048}
             alt={`${props.number}`}
+            onClick={() => {
+              setResize(!Resize);
+            }}
             loading="lazy"
           />
         </div>
@@ -46,7 +53,7 @@ export default function Test(props: CalculationWithFn) {
             }}
           >
             {props.type == "closed" ? (
-              <div className="flex justify-around mt-12">
+              <div className="flex justify-center mt-12 space-x-4 md:space-x-12">
                 <button
                   className={`border-2 border-black text-black h-12 w-12 rounded-full dark:border-white hover:text-white dark:text-white hover:bg-black hover:dark:text-black hover:dark:bg-white transition-all ${
                     Answer == "ა" && "border-green-500"
@@ -102,7 +109,7 @@ export default function Test(props: CalculationWithFn) {
                           loading="lazy"
                           key={e}
                           src={e}
-                          className={`h-auto w-full lg:w-[50vw] border-b-2 border-black dark:border-white select-none pb-2 object-contain`}
+                          className={`h-auto w-screen lg:w-[50vw] border-b-2 border-black dark:border-white select-none pb-2 object-contain`}
                         />
                       );
                     })}

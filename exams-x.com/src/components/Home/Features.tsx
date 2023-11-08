@@ -13,12 +13,12 @@ export default function Features() {
     <section className="bg-white dark:bg-black dark:text-white text-black">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">
-            მიზნები
-          </h2>
+          <h2 className="text-3xl font-bold sm:text-4xl">მიზნები</h2>
 
           <p className="mt-4 dark:text-white text-black">
-            ჩვენი მიზანია შევქმნათ აპლიკაცია რომელიც დაეხმარება მოსწავლეებს მოემზადონ ეროვნული გამოცდებისთვის, გაიგონ სუსტი და ძლიერი მხარეები და გადალახონ სირთულეები.
+            ჩვენი მიზანია შევქმნათ აპლიკაცია რომელიც დაეხმარება მოსწავლეებს
+            მოემზადონ ეროვნული გამოცდებისთვის, გაიგონ სუსტი და ძლიერი მხარეები
+            და გადალახონ სირთულეები.
           </p>
         </div>
 
@@ -114,14 +114,13 @@ export default function Features() {
             <p className="mt-1 text-sm dark:text-white text-black">
               თქვენი პერსონალური ინფორმაცია დაცულია. ვებ-გვერდზე არ ხდება
               რეკლამების განთავსება ან თქვენი ინფორმაციის მესამე მხარესთან
-              გაზიარება. იხილეთ "კონფიდენციალურობის პოლიტიკა".
+              გაზიარება.
             </p>
           </Link>
         </div>
-
         <div className="mt-12 text-center">
           <Link
-            href="/choose"
+            href="/start"
             className="inline-block rounded bg-black dark:bg-white px-12 py-3 text-sm font-medium text-white dark:text-black transition hover:bg-black dark:hover:bg-white focus:outline-none"
           >
             დაიწყე ახლავე

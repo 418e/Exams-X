@@ -3,7 +3,9 @@ import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { Nav, Footer } from "@/components";
 import { createContext, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 const inter = Roboto_Mono({ subsets: ["latin"] });
+
 
 export const ThemeContext = createContext("");
 
@@ -38,6 +40,7 @@ export default function RootLayout({
           <main className="dark:bg-black min-h-screen">{children}</main>
           <Footer theme={theme} />
         </ThemeContext.Provider>
+        <Analytics />
       </body>
     </html>
   );

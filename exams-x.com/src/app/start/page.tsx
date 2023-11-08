@@ -1,6 +1,6 @@
 import { ChooseList } from "@/components";
 
-export default function Choose() {
+export default function Start() {
   return (
     <>
       <ChooseList />

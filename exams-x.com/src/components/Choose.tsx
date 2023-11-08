@@ -18,9 +18,9 @@ export default function ChooseList() {
               </h2>
             </Link>
 
-            <Link
+            {/* <Link
               className="flex items-center gap-2 justify-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black/10 hover:shadow-black/10 dark:hover:border-white/10 dark:hover:shadow-white/10"
-              href="/choose"
+              href="/start"
             >
               <MdTranslate size={32} />
 
@@ -31,14 +31,14 @@ export default function ChooseList() {
 
             <Link
               className="flex items-center gap-2 justify-center rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-black/10 hover:shadow-black/10 dark:hover:border-white/10 dark:hover:shadow-white/10"
-              href="/choose"
+              href="/start"
             >
               <MdLanguage size={32} />
 
               <h2 className="text-xl font-bold dark:text-white text-black">
                 ქართული
               </h2>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

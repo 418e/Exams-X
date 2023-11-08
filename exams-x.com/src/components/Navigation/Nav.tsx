@@ -26,19 +26,19 @@ export default function Nav({ toggle }: { toggle: any }) {
         <ul
           className={`md:flex font-bold space-x-0 md:space-x-8 md:ml-8 ${
             Mobile
-              ? "flex absolute w-full mt-64 flex-col justify-center items-center space-y-8 border-b-4 border-black pb-4 bg-white dark:bg-black"
+              ? "flex absolute w-full mt-32 flex-col justify-center items-center space-y-8 border-b-4 border-black pb-4 bg-white dark:bg-black dark:border-white"
               : "hidden"
           }`}
         >
           <li className={`hover:underline`}>
-            <Link href="/choose">ტესტები</Link>
+            <Link href="/start">ტესტები</Link>
           </li>
-          <li className={`hover:underline`}>
+          {/* <li className={`hover:underline`}>
             <Link href="/">რესურსები</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
-      <div className="flex mr-8 space-x-8">
+      <div className="flex mr-8 space-x-2 md:space-x-8">
         {Modal && <News />}
         <div className="cursor-pointer" onClick={() => setModal(!Modal)}>
           <MdNewspaper size={32} />

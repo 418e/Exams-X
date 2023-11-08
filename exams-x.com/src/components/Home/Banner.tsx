@@ -10,23 +10,24 @@ export default function Banner() {
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            პროექტი არის მოსწავლეზე ორიენტირებული და ემსახურება მათ მომზადებას ერთიანი ეროვნული გამოცდებისთვის.
+            პროექტი არის მოსწავლეზე ორიენტირებული და ემსახურება მათ მომზადებას
+            ერთიანი ეროვნული გამოცდებისთვის.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
-              className="block w-full rounded border border-black dark:border-white bg-black dark:bg-white px-12 py-3 text-sm font-medium text-white dark:text-black hover:bg-transparent hover:text-black   dark:hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto transition-all"
-              href="/choose"
+              className="block w-full rounded border border-black dark:border-white bg-black dark:bg-white px-12 py-3 text-sm font-medium text-white dark:text-black hover:bg-transparent hover:text-black   dark:hover:text-white dark:hover:bg-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto transition-all"
+              href="/start"
             >
               დაიწყე ახლავე
             </Link>
-
+{/* 
             <Link
               className="block w-full rounded border border-black dark:border-white px-12 py-3 text-sm font-medium text-black dark:text-white hover:bg-white dark:hover:bg-black focus:outline-none focus:ring active:bg-black dark:active:bg-white sm:w-auto transition-all active:text-whtie dark:active:text-black"
               href="/"
             >
               გაიგე მეტი
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

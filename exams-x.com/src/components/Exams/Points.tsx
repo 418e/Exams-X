@@ -14,12 +14,12 @@ export default function PointsBoard({
 }) {
 
   return (
-    <div className="mb-8 xl:-mb-32 ml-8 rounded-md border-2 p-2 w-96  border-black dark:text-white dark:border-white z-10">
+    <div className="mb-8 xl:-mb-32 ml-8 rounded-md border-2 p-2 w-56 md:w-96  border-black dark:text-white dark:border-white z-10">
       <div className="text-center">
         {problem}/{total_problems}
       </div>
       <div>
-        მოპოვებული ქულები: {points} / {total_points}
+        მოპოვებული ქულები: {points}
       </div>
       <div>დაკარგული ქულები: {lost_points}</div>
     </div>
